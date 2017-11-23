@@ -16,7 +16,7 @@ Algorithms and Data Structures in C++
 To compile the C++ files, run the following command:
 
 ```
-g++ -o test --std=c++11 <filename.cpp>
+g++ --std=c++11 <filename.cpp> -o test 
 ```
 
 ### Dependencies
