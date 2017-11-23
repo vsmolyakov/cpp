@@ -8,6 +8,8 @@ Algorithms and Data Structures in C++
 
 **Dynamic Programming**
 * Knapsack: [C++](./knapsack/knapsack.cpp)
+* Longest Common Substring: [C++](./lcs/longest_common_substring.cpp)
+
 
 ### Compiling
 
