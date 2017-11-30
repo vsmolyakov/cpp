@@ -16,6 +16,7 @@ Algorithms and Data Structures in C++
 The notebooks were created using [xeus-cling](https://github.com/QuantStack/xeus-cling): a Jupyter kernel for C++
 
 * xtensor: [ipynb](https://github.com/vsmolyakov/cpp/blob/master/notebooks/xtensor.ipynb)
+* eigen: [ipynb](https://github.com/vsmolyakov/cpp/blob/master/notebooks/eigen.ipynb)
 
 
 ### Compiling
