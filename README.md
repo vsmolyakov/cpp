@@ -24,7 +24,7 @@ The notebooks were created using [xeus-cling](https://github.com/QuantStack/xeus
 To compile the C++ files, run the following command:
 
 ```
-g++ --std=c++11 <filename.cpp> -o test 
+g++ --std=c++17 <filename.cpp> -o test 
 ```
 
 ### Dependencies

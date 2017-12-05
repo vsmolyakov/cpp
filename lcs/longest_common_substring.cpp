@@ -71,9 +71,14 @@ int main()
     result = longest_common_substring(A, B);
 
     fout << result.size() << "\n";
+    cout << result.size() << "\n";
     for (auto it = result.begin(); it < result.end(); ++it)
+    {
         fout << *it << " ";
+        cout << *it << " ";
+    }
     fout << "\n";
+    cout << "\n";
 
     return 0;
 }
