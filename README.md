@@ -3,12 +3,10 @@ Algorithms and Data Structures in C++
 
 ### Description
 
-**Machine Learning**
 * Dirichlet-Process K-means: [C++](./dpmeans/dpmeans.cpp)
-
-**Dynamic Programming**
-* Knapsack: [C++](./knapsack/knapsack.cpp)
+* Topological Sort: [C++](./topological_sort/topological_sort.cpp)
 * Longest Common Substring: [C++](./lcs/longest_common_substring.cpp)
+* Knapsack: [C++](./knapsack/knapsack.cpp)
 
 
 ### Jupyter Notebooks
