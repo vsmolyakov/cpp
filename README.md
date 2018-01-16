@@ -4,9 +4,10 @@ Algorithms and Data Structures in C++
 ### Description
 
 * Dirichlet-Process K-means: [C++](./dpmeans/dpmeans.cpp)
-* Topological Sort: [C++](./topological_sort/topological_sort.cpp)
-* Longest Common Substring: [C++](./lcs/longest_common_substring.cpp)
-* Knapsack: [C++](./knapsack/knapsack.cpp)
+* Topological Sort: [C++](./topological_sort/topological_sort.cpp)  
+* Longest Common Substring: [C++](./lcs/longest_common_substring.cpp)  
+* Knapsack: [C++](./knapsack/knapsack.cpp)  
+* L-BFGS optimization: [C++](./lbfgs/lbfgs_simple.cpp)  
 
 
 ### Jupyter Notebooks
