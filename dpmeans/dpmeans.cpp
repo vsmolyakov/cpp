@@ -1,7 +1,4 @@
-// dpmeans.cpp : Defines the entry point for the console application.
-//
-
-#include "dpmeans.h"
+#include "dpmeans.hpp"
 #include <iostream>
 #include <limits>
 #include <random>
@@ -26,7 +23,6 @@ dpmeans::dpmeans(const Ref<const MatrixXf>& X)
 	d = X.cols();
 	z = VectorXi::Zero(n);        
 	mu = MatrixXf::Zero(K, d);    
-	sigma = 1.0;
 	
 	nk = VectorXf::Zero(K);
 	pik = VectorXf::Ones(K);
@@ -68,9 +64,9 @@ float dpmeans::kpp_init(const Ref<const MatrixXf>& X, int k)
 	{
 		D = X - mu.row(i - 1).replicate(n, 1);
 		dist = dist.cwiseMin(D.cwiseProduct(D).rowwise().sum());
-		cout << "X = " << endl << X << endl;
-		cout << "mu = " << endl << mu << endl;
-		cout << "dist = " << endl << dist << endl;
+		//cout << "X = " << endl << X << endl;
+		//cout << "mu = " << endl << mu << endl;
+		//cout << "dist = " << endl << dist << endl;
 
 		//sample discrete
 		pdist = dist / dist.sum();
@@ -108,7 +104,7 @@ VectorXi dpmeans::dpmeans_fit(const Ref<const MatrixXf>& X)
 	double obj_tol = 1e-3;
 	cout << "running dp-means..." << endl;
 
-	cout << "X = " << endl << X << endl;
+	//cout << "X = " << endl << X << endl;
 	for (int iter = 0; iter < max_iter; ++iter)
 	{
 		clock_t tic = clock();
@@ -121,8 +117,8 @@ VectorXi dpmeans::dpmeans_fit(const Ref<const MatrixXf>& X)
 			Xm = X - mu.row(k).replicate(n, 1);
 			dist.col(k) = Xm.cwiseProduct(Xm).rowwise().sum();			
 		}
-		cout << "mu = " << endl << mu << endl;
-		cout << "dist = " << endl << dist << endl;
+		//cout << "mu = " << endl << mu << endl;
+		//cout << "dist = " << endl << dist << endl;
 
 		//update labels
 		VectorXf dmin = VectorXf::Zero(n);
@@ -132,9 +128,9 @@ VectorXi dpmeans::dpmeans_fit(const Ref<const MatrixXf>& X)
 			dmin(ridx) = dist.row(ridx).minCoeff(&minIndex);
 			z(ridx) = minIndex;
 		}
-		cout << "dmin = " << endl << dmin << endl;
-		cout << "z = " << endl << z << endl;
-		cout << "lambda = " << endl << lambda << endl;
+		//cout << "dmin = " << endl << dmin << endl;
+		//cout << "z = " << endl << z << endl;
+		//cout << "lambda = " << endl << lambda << endl;
 
 		VectorXi dmin_idx = VectorXi::Zero(n);
 		for (int ridx = 0; ridx < n; ++ridx)
@@ -143,14 +139,14 @@ VectorXi dpmeans::dpmeans_fit(const Ref<const MatrixXf>& X)
 				dmin_idx(ridx) = 1;
 		}
 		int num_new = dmin_idx.sum();
-		cout << "num_new = " << endl << num_new << endl;
+		//cout << "num_new = " << endl << num_new << endl;
 
 		if (num_new > 0)
 		{
 			//create a new cluster for points
 			//with dmin > lambda
 			K = K + 1;
-			cout << "K = " << endl << K << endl;
+			//cout << "K = " << endl << K << endl;
 
 			VectorXf new_mean = VectorXf::Zero(d);
 			for (int ridx = 0; ridx < n; ++ridx)
@@ -162,17 +158,17 @@ VectorXi dpmeans::dpmeans_fit(const Ref<const MatrixXf>& X)
 					new_mean = new_mean + X.row(ridx).transpose();
 				}
 			}
-			cout << "z = " << endl << z << endl;
+			//cout << "z = " << endl << z << endl;
 			mu.conservativeResize(mu.rows() + 1, NoChange);
-			cout << "new mean: " << endl << new_mean << endl;
-			cout << "num_new: " << endl << num_new << endl;
+			//cout << "new mean: " << endl << new_mean << endl;
+			//cout << "num_new: " << endl << num_new << endl;
 			mu.row(K-1) = new_mean / (float) num_new;  // add new mean		
 
 			MatrixXf Xm = MatrixXf::Zero(n, d);
 			Xm = X - mu.row(K-1).replicate(n, 1);
 			dist.conservativeResize(NoChange, dist.cols() + 1);
 			dist.col(K-1) = Xm.cwiseProduct(Xm).rowwise().sum(); //add dist to new mean			
-			cout << "dist = " << endl << dist << endl;
+			//cout << "dist = " << endl << dist << endl;
 
 		}
 
@@ -312,9 +308,8 @@ void dpmeans::display_params()
 {
 	cout << "K = " << this->K << endl;
 	cout << "K_init = " << this->K_init << endl;
-	cout << "Labels: " << endl << this->z << endl;
+	//cout << "Labels: " << endl << this->z << endl;
 	cout << "Means: " << endl << this->mu << endl;
-	cout << "Sigma: " << this->sigma << endl;
 	cout << "Counts: " << endl << this->nk << endl;
 	cout << "Proportions: " << endl << this->pik << endl;
 	cout << "Lambda: " << this->lambda << endl;	
@@ -395,7 +390,7 @@ int main(int argc, char* argv[])
 
 	VectorXi z;
 	z = dp.dpmeans_fit(X);
-	cout << "z = " << endl << z << endl;
+	//cout << "z = " << endl << z << endl;
 	
 	float nmi;
 	nmi = dp.compute_nmi(z, y);
