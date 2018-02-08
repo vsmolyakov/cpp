@@ -8,7 +8,8 @@ Algorithms and Data Structures in C++
 * Longest Common Substring: [C++](./lcs/longest_common_substring.cpp)  
 * Memoized Matrix Chain Product: [C++](./matrix_chain/matrix_chain.cpp)
 * Knapsack: [C++](./knapsack/knapsack.cpp)  
-* L-BFGS optimization: [C++](./lbfgs/lbfgs_simple.cpp)  
+* L-BFGS optimization: [C++](./lbfgs/lbfgs_simple.cpp)
+* Interval Schedule: [C++](./interval_schedule/interval_schedule.cpp)  
 
 
 ### Jupyter Notebooks
