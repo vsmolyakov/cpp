@@ -10,6 +10,7 @@ Algorithms and Data Structures in C++
 * Knapsack: [C++](./knapsack/knapsack.cpp)  
 * L-BFGS optimization: [C++](./lbfgs/lbfgs_simple.cpp)
 * Interval Schedule: [C++](./interval_schedule/interval_schedule.cpp)  
+* Tree Traversal: [C++](./tree_traversal/tree_traversal.cpp)  
 
 
 ### Jupyter Notebooks
