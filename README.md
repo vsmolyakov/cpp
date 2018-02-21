@@ -11,6 +11,7 @@ Algorithms and Data Structures in C++
 * L-BFGS optimization: [C++](./lbfgs/lbfgs_simple.cpp)
 * Interval Schedule: [C++](./interval_schedule/interval_schedule.cpp)  
 * Tree Traversal: [C++](./tree_traversal/tree_traversal.cpp)  
+* Huffman Coding: [C++](./huffman_coding/huffman_coding.cpp)  
 
 
 ### Jupyter Notebooks
