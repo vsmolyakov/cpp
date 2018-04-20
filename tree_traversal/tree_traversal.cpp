@@ -1,6 +1,4 @@
 #include <iostream>
-#include <stack>
-#include <vector>
 using namespace std;
 
 struct Node
@@ -18,71 +16,50 @@ Node* newNode(int key)
     return node;
 }
 
-void insert(Node* &root, string level, int key)
+void preorder_traversal(Node* root)
 {
-    if (level.length() == 0)
-    {
-        root = newNode(key);
+    if (root == nullptr)
         return;
-    }
 
-    int i = 0;
-    Node *ptr = root;
-    while (i < level.length()-1)
-    {
-        if (level[i++] == 'L')
-            ptr = ptr->left;
-        else
-            ptr = ptr->right;
-    }
-
-    if (level[i] == 'L')
-        ptr->left = newNode(key);
-    else
-        ptr->right = newNode(key);
-
+    cout << root->data << " ";
+    preorder_traversal(root->left);
+    preorder_traversal(root->right);
 }
 
-void inorder_iterative(Node *root)
+void inorder_traversal(Node* root)
 {
-    stack<Node*> stack;
+    if (root == nullptr)
+        return;
 
-    Node *curr = root;
+    inorder_traversal(root->left);
+    cout << root->data << " ";
+    inorder_traversal(root->right);
+}
 
-    while (!stack.empty() || curr != nullptr)
-    {
-        if (curr != nullptr)
-        {
-            stack.push(curr);
-            curr = curr->left;
-        }
-        else
-        {
-            curr = stack.top();
-            stack.pop();
-            cout << curr->data << " ";
-            curr = curr->right;
-        }
-    }
+void postorder_traversal(Node* root)
+{
+    if (root == nullptr)
+        return;
 
+    postorder_traversal(root->left);
+    postorder_traversal(root->right);
+    cout << root->data << " ";
 }
 
 int main()
 {
-    vector<pair<string,int>> keys = 
-    {
-       {"", 1}, {"L", 2}, {"R", 3}, {"LL", 4}, {"RL", 5},
-       {"RR", 6}, {"RLL", 7}, {"RLR", 8}
-    };
+    Node* root = newNode(1);
+    root->left = newNode(2);
+    root->right = newNode(3);
+    root->left->left = newNode(4);
+    root->left->right = newNode(5);
 
-    Node *root = nullptr;
-
-    for (auto pair: keys)
-    {
-        insert(root, pair.first, pair.second);
-    }
-
-    inorder_iterative(root);
+    cout << endl << "preorder traversal: ";
+    preorder_traversal(root);
+    cout << endl << "inorder traversal: ";
+    inorder_traversal(root);
+    cout << endl << "postorder traversal: ";
+    postorder_traversal(root);
     cout << endl;
 
     return 0;
