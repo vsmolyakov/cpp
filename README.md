@@ -12,6 +12,7 @@ Algorithms and Data Structures in C++
 * Interval Schedule: [C++](./interval_schedule/interval_schedule.cpp)  
 * Tree Traversal: [C++](./tree_traversal/tree_traversal.cpp)  
 * Huffman Coding: [C++](./huffman_coding/huffman_coding.cpp)  
+* Disjoint Set Union Find (DSUF) data structure: [C++](./data_structures/union_find.cpp)  
 
 
 ### Jupyter Notebooks
@@ -27,7 +28,7 @@ The notebooks were created using [xeus-cling](https://github.com/QuantStack/xeus
 To compile the C++ files, run the following command:
 
 ```
-g++ --std=c++17 <filename.cpp> -o test 
+g++ --std=c++11 <filename.cpp> -o test 
 ```
 
 ### Dependencies
