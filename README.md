@@ -8,7 +8,7 @@ Algorithms and Data Structures in C++
 * Longest Common Substring: [C++](./lcs/longest_common_substring.cpp)  
 * Memoized Matrix Chain Product: [C++](./matrix_chain/matrix_chain.cpp)
 * Knapsack: [C++](./knapsack/knapsack_dp.cpp)  
-* Sorting: [C++](./sorting/insertion_sort.cpp)  
+* Merge Sort: [C++](./sorting/merge_sort.cpp)  
 * L-BFGS optimization: [C++](./lbfgs/lbfgs_simple.cpp)
 * Interval Schedule: [C++](./interval_schedule/interval_schedule.cpp)  
 * Tree Traversal: [C++](./tree_traversal/tree_traversal.cpp)  
