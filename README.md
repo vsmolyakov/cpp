@@ -4,7 +4,7 @@ Algorithms and Data Structures in C++
 ### Description
 
 * Dirichlet-Process K-means: [C++](./dpmeans/dpmeans.cpp)
-* Topological Sort: [C++](./graphs/topological_sort/topological_sort.cpp)  
+* Topological Sort: [C++](./graphs/topological_sort/topological_sort_kahn.cpp)  
 * Longest Common Substring: [C++](./lcs/longest_common_substring.cpp)  
 * Memoized Matrix Chain Product: [C++](./matrix_chain/matrix_chain.cpp)
 * Knapsack: [C++](./knapsack/knapsack_dp.cpp)  
