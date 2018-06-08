@@ -3,12 +3,12 @@ Algorithms and Data Structures in C++
 
 ### Graph Algorithms
 
-* DFS [C++](./graphs/DFS.cpp)
-* BFS [C++](./graphs/BFS.cpp)
-* Topological Sort (Kahn) [C++](./graphs/topological_sort/topological_sort_kahn.cpp)
-* Bipartite Check [C++] (./graphs/bipartite_check.cpp)
-* All Pairs Shortest Paths (APSP) Floyd-Warshall [C++](./graphs/apsp_floyd_warshall)
-* Max Flow Edmonds Karp [C++](./graphs/max_flow_edmonds_karp.cpp)
+* [DFS](./graphs/DFS.cpp)
+* [BFS](./graphs/BFS.cpp)
+* [Topological Sort (Kahn)](./graphs/topological_sort/topological_sort_kahn.cpp)
+* [Bipartite Check](./graphs/bipartite_check.cpp)
+* [All Pairs Shortest Paths (APSP) Floyd-Warshall](./graphs/apsp_floyd_warshall)
+* [Max Flow Edmonds Karp](./graphs/max_flow_edmonds_karp.cpp)
 
 ### Tree Algorithms
 
