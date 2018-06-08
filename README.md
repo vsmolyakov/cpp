@@ -17,7 +17,7 @@ Algorithms and Data Structures in C++
 
 ### Complete Search
 
-* [Eight Queens Problem](./misc/eight_queens.cpp)
+* [Eight Queens Problem](./complete_search/eight_queens.cpp)
 
 ### Greedy Algorithms
 
