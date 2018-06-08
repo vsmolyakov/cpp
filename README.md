@@ -12,55 +12,55 @@ Algorithms and Data Structures in C++
 
 ### Tree Algorithms
 
-* Tree traversal: [C++](./trees/tree_traversal.cpp)
-* Tree vertical order: [C++](./trees/tree_vertical_order.cpp)
+* [Tree traversal](./trees/tree_traversal.cpp)
+* [Tree vertical order](./trees/tree_vertical_order.cpp)
 
 ### Complete Search
 
 ### Greedy Algorithms
 
-* Interval Schedule: [C++](./greedy/interval_schedule/interval_schedule.cpp)  
-* Huffman Coding: [C++](./greedy/huffman_coding.cpp)  
-* Knapsack: [C++](./greedy/knapsack_greedy.cpp)  
+* [Interval Schedule] (./greedy/interval_schedule/interval_schedule.cpp)  
+* [Huffman Coding](./greedy/huffman_coding.cpp)  
+* [Knapsack](./greedy/knapsack_greedy.cpp)  
 
 ### Divide and Conquer
 
-* Binary Search: [C++](./divide_and_conquer/binary_search.cpp)  
+* [Binary Search](./divide_and_conquer/binary_search.cpp)  
 
 ### Dynamic Programming
 
-* Binomial Coefficients: [C++](./dynamic_programming/binomial_coeffs.cpp)  
-* Knapsack: [C++](./dynamic_programming/knapsack_dp.cpp)  
-* Coin Change: [C++](./dynamic_programming/coin_change.cpp)
-* Max subarray sum: [C++](./dynamic_programming/max_subarray_sum.cpp)
-* Memoized Matrix Chain Product: [C++](./dynamic_programming/matrix_chain.cpp)
-* Longest Common Substring: [C++](./dynamic_programming/longest_common_substring/longest_common_substring.cpp)
-* String Alignment Needleman-Wunsch: [C++](./dynamic_programming/string_alignment.cpp)
+* [Binomial Coefficients](./dynamic_programming/binomial_coeffs.cpp)  
+* [Knapsack](./dynamic_programming/knapsack_dp.cpp)  
+* [Coin Change](./dynamic_programming/coin_change.cpp)
+* [Max subarray sum](./dynamic_programming/max_subarray_sum.cpp)
+* [Memoized Matrix Chain Product](./dynamic_programming/matrix_chain.cpp)
+* [Longest Common Substring](./dynamic_programming/longest_common_substring/longest_common_substring.cpp)
+* [String Alignment Needleman-Wunsch](./dynamic_programming/string_alignment.cpp)
 
 ### Sorting
 
-* Selection sort: [C++](./sorting/selection_sort.cpp)  
-* Insertion sort: [C++](./sorting/insertion_sort.cpp)  
-* Merge sort: [C++](./sorting/merge_sort.cpp)
-* Quick sort: [C++](./sorting/quick_sort.cpp)
-* Heap sort: [C++](./sorting/heap_sort.cpp)
+* [Heap sort](./sorting/heap_sort.cpp)
+* [Quick sort](./sorting/quick_sort.cpp)
+* [Merge sort](./sorting/merge_sort.cpp)
+* [Selection sort](./sorting/selection_sort.cpp)  
+* [Insertion sort](./sorting/insertion_sort.cpp)  
 
 ### Data Structures
 
-* Disjoint Set Union Find (DSUF) data structure: [C++](./data_structures/union_find.cpp)  
+* [Disjoint Set Union Find (DSUF) data structure](./data_structures/union_find.cpp)  
 
 ### Misc
 
-* Eight Queens Problem: [C++](./misc/eight_queens.cpp)
-* Sieve of Eratosthenes: [C++](./misc/sieve_of_eratosthenes.cpp)
-* Convex Polygon Check: [C++](./misc/is_convex.cpp)
-* Sliding window: [C++](./misc/sliding_window.cpp)
-* String matching: [C++](./misc/string_matching.cpp)
+* [Eight Queens Problem](./misc/eight_queens.cpp)
+* [Sieve of Eratosthenes](./misc/sieve_of_eratosthenes.cpp)
+* [Convex Polygon Check](./misc/is_convex.cpp)
+* [Sliding window](./misc/sliding_window.cpp)
+* [String matching](./misc/string_matching.cpp)
 
 ### Machine Learning
 
-* Dirichlet-Process K-means: [C++](./dpmeans/dpmeans.cpp)
-* L-BFGS optimization: [C++](./lbfgs/lbfgs_simple.cpp)
+* [Dirichlet-Process K-means](./dpmeans/dpmeans.cpp)
+* [L-BFGS optimization](./lbfgs/lbfgs_simple.cpp)
 
 ### Jupyter Notebooks
 
