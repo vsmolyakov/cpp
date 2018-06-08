@@ -17,6 +17,8 @@ Algorithms and Data Structures in C++
 
 ### Complete Search
 
+* [Eight Queens Problem](./misc/eight_queens.cpp)
+
 ### Greedy Algorithms
 
 * [Interval Schedule](./greedy/interval_schedule/interval_schedule.cpp)  
@@ -51,7 +53,6 @@ Algorithms and Data Structures in C++
 
 ### Misc
 
-* [Eight Queens Problem](./misc/eight_queens.cpp)
 * [Sieve of Eratosthenes](./misc/sieve_of_eratosthenes.cpp)
 * [Convex Polygon Check](./misc/is_convex.cpp)
 * [Sliding window](./misc/sliding_window.cpp)
