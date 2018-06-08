@@ -7,7 +7,7 @@ Algorithms and Data Structures in C++
 * [BFS](./graphs/BFS.cpp)
 * [Topological Sort (Kahn)](./graphs/topological_sort/topological_sort_kahn.cpp)
 * [Bipartite Check](./graphs/bipartite_check.cpp)
-* [All Pairs Shortest Paths (APSP) Floyd-Warshall](./graphs/apsp_floyd_warshall)
+* [All Pairs Shortest Paths (APSP) Floyd-Warshall](./graphs/apsp_floyd_warshall.cpp)
 * [Max Flow Edmonds Karp](./graphs/max_flow_edmonds_karp.cpp)
 
 ### Tree Algorithms
