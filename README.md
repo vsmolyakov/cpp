@@ -17,6 +17,7 @@ Algorithms and Data Structures in C++
 
 ### Complete Search
 
+* [Generating Subsets](./complete_search/subset_gen.cpp)
 * [Eight Queens Problem](./complete_search/eight_queens.cpp)
 
 ### Greedy Algorithms
