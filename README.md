@@ -25,7 +25,7 @@ Algorithms and Data Structures in C++
 
 * [Interval Schedule](./greedy/interval_schedule/interval_schedule.cpp)  
 * [Huffman Coding](./greedy/huffman_coding.cpp)  
-* [Knapsack](./greedy/knapsack_greedy.cpp)  
+* [Fractional Knapsack](./greedy/knapsack_greedy.cpp)  
 
 ### Divide and Conquer
 
