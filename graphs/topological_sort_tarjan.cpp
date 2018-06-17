@@ -77,6 +77,7 @@ int main()
 
     cout << "topological order:\n";
     g.topological_sort();
+    cout << endl;
 
     return 0;
 }
