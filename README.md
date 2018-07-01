@@ -44,6 +44,7 @@ Algorithms and Data Structures in C++
 ### Sorting
 
 * [Radix sort](./sorting/radix_sort.cpp)
+* [Bucket sort](./sorting/bucket_sort.cpp)
 * [Quick sort](./sorting/quick_sort.cpp)
 * [Merge sort](./sorting/merge_sort.cpp)
 * [Heap sort](./sorting/heap_sort.cpp)
