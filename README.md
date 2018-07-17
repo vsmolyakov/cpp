@@ -61,6 +61,7 @@ Algorithms and Data Structures in C++
 * [Convex Polygon Check](./misc/is_convex.cpp)
 * [Sliding window](./misc/sliding_window.cpp)
 * [String matching](./misc/string_matching.cpp)
+* [Matrix Spiral](./misc/matrix_spiral.cpp)
 
 ### Machine Learning
 
