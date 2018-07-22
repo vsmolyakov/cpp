@@ -62,6 +62,10 @@ Algorithms and Data Structures in C++
 * [Sliding window](./misc/sliding_window.cpp)
 * [String matching](./misc/string_matching.cpp)
 * [Matrix Spiral](./misc/matrix_spiral.cpp)
+* [Two Pointers] (./misc/two_pointers.cpp)
+* [Intersection] (./misc/intersection.cpp)
+* [Cycle Detection (Floyd)] (./misc/cycle_detection_floyd.cpp)
+
 
 ### Machine Learning
 
