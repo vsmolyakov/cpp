@@ -64,6 +64,7 @@ Algorithms and Data Structures in C++
 * [Matrix Spiral](./misc/matrix_spiral.cpp)
 * [Two Pointers](./misc/two_pointers.cpp)
 * [Intersection](./misc/intersection.cpp)
+* [Matching Parenthesis](./misc/matching_parentheses.cpp)
 * [Cycle Detection (Floyd)](./misc/cycle_detection_floyd.cpp)
 
 
