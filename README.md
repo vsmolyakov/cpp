@@ -54,8 +54,8 @@ Algorithms and Data Structures in C++
 ### Data Structures
 
 * [Circular Queue](./data_structures/circular_queue.cpp)
-* [Disjoint Set Union Find (DSUF) data structure](./data_structures/union_find.cpp) 
 * [Binary Search Tree](./data_structures/bst.cpp)  
+* [Disjoint Set Union Find (DSUF) data structure](./data_structures/union_find.cpp) 
  
 
 ### Misc
