@@ -75,8 +75,9 @@ Algorithms and Data Structures in C++
 
 ### Machine Learning
 
-* [Dirichlet-Process K-means](./dpmeans/dpmeans.cpp)
-* [L-BFGS optimization](./lbfgs/lbfgs_simple.cpp)
+* [KD Tree](./machine_learning/kdtree.cpp)  
+* [Dirichlet-Process K-means](./machine_learning/dpmeans/dpmeans.cpp)  
+* [L-BFGS optimization](./machine_learning/lbfgs/lbfgs_simple.cpp)  
 
 ### Jupyter Notebooks
 
