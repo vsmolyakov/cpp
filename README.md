@@ -70,7 +70,8 @@ Algorithms and Data Structures in C++
 * [Intersection](./misc/intersection.cpp)
 * [Matching Parenthesis](./misc/matching_parentheses.cpp)
 * [Cycle Detection (Floyd)](./misc/cycle_detection_floyd.cpp)
-* [Flood Fill](./misc/flood_fill.cpp)
+* [Flood Fill](./misc/flood_fill.cpp)  
+* [Tower of Hanoi](./misc/tower_of_hanoi.cpp)  
 
 
 ### Machine Learning
