@@ -31,6 +31,7 @@ Algorithms and Data Structures in C++
 ### Divide and Conquer
 
 * [Binary Search](./divide_and_conquer/binary_search.cpp)  
+* [Quick Select](./divide_and_conquer/quick_select.cpp)  
 
 ### Dynamic Programming
 
