@@ -38,7 +38,7 @@ int kth_smallest(int arr[], int l, int r, int k)
 
 int main()
 {
-    int arr[] = {10, 4, 5, 8, 6, 11, 26}; //assumes distince elements
+    int arr[] = {10, 4, 5, 8, 6, 11, 26}; //assumes distinct elements
     int n = sizeof(arr)/sizeof(arr[0]);
     int k = 3; //rank
 
