@@ -57,6 +57,7 @@ Algorithms and Data Structures in C++
 
 * [Binary Heap](./data_structures/binary_heap.cpp)  
 * [Circular Queue](./data_structures/circular_queue.cpp)  
+* [Queue Using 2 Stacks](./data_structures/queue_with_2stacks.cpp)  
 * [Binary Search Tree](./data_structures/bst.cpp)  
 * [Disjoint Set Union Find](./data_structures/union_find.cpp) 
  
