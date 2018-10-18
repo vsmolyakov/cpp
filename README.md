@@ -56,6 +56,7 @@ Algorithms and Data Structures in C++
 
 ### Data Structures
 
+* [Trie](./data_structures/trie.cpp)  
 * [Binary Heap](./data_structures/binary_heap.cpp)  
 * [Circular Queue](./data_structures/circular_queue.cpp)  
 * [Queue Using 2 Stacks](./data_structures/queue_with_2stacks.cpp)  
