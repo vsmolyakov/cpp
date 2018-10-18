@@ -1,12 +1,12 @@
-#include <map>
 #include <vector>
 #include <iostream>
+#include <unordered_map>
 using namespace std;
 
 vector<int> intersect (vector<int>& nums1, vector<int>& nums2)
 {
     vector<int> result;
-    map<int, int> hist;
+    unordered_map<int, int> hist;
 
     for (int item : nums1) {hist[item]++;}
     for (int item : nums2)
