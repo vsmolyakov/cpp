@@ -80,6 +80,7 @@ Algorithms and Data Structures in C++
 * [Cycle Detection (Floyd)](./misc/cycle_detection_floyd.cpp)
 * [Flood Fill](./misc/flood_fill.cpp)  
 * [Tower of Hanoi](./misc/tower_of_hanoi.cpp)  
+* [Fisher-Yates shuffle](./misc/fisher_yates_shuffle.cpp)  
 
 
 ### Machine Learning
