@@ -23,17 +23,15 @@ int height(struct Node * node)
     return 1 + max(height(node->left), height(node->right));
 }
 
-int diameter(struct Node * tree)
+int diameter(struct Node * root)
 {
-    if (tree == nullptr) {return 0;}
+    if (root == nullptr) {return 0;}
 
-    int lheight = height(tree->left);
-    int rheight = height(tree->right);
+    //case 1: diameter goes through the root
+    int res = height(root->left) + height(root->right);
 
-    int ldiameter = diameter(tree->left);
-    int rdiameter = diameter(tree->right);
-
-    return max(lheight + rheight + 1, max(ldiameter, rdiameter));
+    //case 2: diameter doesn't go through the root
+    return max(res, max(diameter(root->left), diameter(root->right)));
 }
 
 int main()
