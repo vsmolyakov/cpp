@@ -81,6 +81,7 @@ Algorithms and Data Structures in C++
 * [Flood Fill](./misc/flood_fill.cpp)  
 * [Tower of Hanoi](./misc/tower_of_hanoi.cpp)  
 * [Fisher-Yates shuffle](./misc/fisher_yates_shuffle.cpp)  
+* [Generating permutations](./misc/permutations.cpp)  
 
 
 ### Machine Learning
