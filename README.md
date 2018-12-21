@@ -16,6 +16,7 @@ Algorithms and Data Structures in C++
 * [Tree level order](./trees/tree_level_order.cpp)  
 * [Tree vertical order](./trees/tree_vertical_order.cpp)
 * [Tree diameter](./trees/tree_diameter.cpp)  
+* [Valid BST](./trees/tree_isValidBST.cpp)  
 
 
 ### Complete Search
