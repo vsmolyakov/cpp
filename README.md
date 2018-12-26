@@ -28,7 +28,8 @@ Algorithms and Data Structures in C++
 
 ### Greedy Algorithms
 
-* [Interval Schedule](./greedy/interval_schedule/interval_schedule.cpp)
+* [Interval Schedule](./greedy/interval_schedule/interval_schedule.cpp)  
+* [Coin change](./greedy/coin_change_greedy.cpp)  
 * Minimum Spanning Tree: [Kruskal](./greedy/mst_kruskal.cpp)   
 * [Huffman Coding](./greedy/huffman_coding.cpp)  
 * [Fractional Knapsack](./greedy/knapsack_greedy.cpp)  
