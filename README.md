@@ -90,6 +90,7 @@ Algorithms and Data Structures in C++
 ### Machine Learning
 
 * [KD Tree](./machine_learning/kdtree.cpp)  
+* [Perceptron](./machine_learning/perceptron/perceptron.cpp)    
 * [Dirichlet-Process K-means](./machine_learning/dpmeans/dpmeans.cpp)  
 * [Binary Logistic Regression](./machine_learning/logreg/logreg.cpp)  
 * [L-BFGS optimization](./machine_learning/lbfgs/lbfgs_simple.cpp)  
