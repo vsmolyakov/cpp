@@ -84,6 +84,7 @@ Algorithms and Data Structures in C++
 * [Flood Fill](./misc/flood_fill.cpp)  
 * [Tower of Hanoi](./misc/tower_of_hanoi.cpp)  
 * [Fast Power](./misc/fast_power.cpp)  
+* [Connected Components](./misc/connected_components.cpp)    
 * [Fisher-Yates shuffle](./misc/fisher_yates_shuffle.cpp)  
 * [Generating permutations](./misc/permutations.cpp)  
 
