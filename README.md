@@ -26,7 +26,8 @@ Algorithms and Data Structures in C++
 * [Eight Queens Problem](./complete_search/eight_queens.cpp)
 * [Branch and Bound Knapsack](./complete_search/knapsack_branch_and_bound.cpp)
 * [Maze Backtracking](./complete_search/maze_backtracking.cpp)  
-* [Hamiltonian Paths](./complete_search/hamiltonian_paths.cpp)  
+* [Hamiltonian Paths](./complete_search/hamiltonian_paths.cpp)
+* [K-Colorable Graph](./complete_search/k-colorable.cpp)    
 * [Exact Set Cover](./complete_search/exact_cover.cpp)  
 
 ### Greedy Algorithms
