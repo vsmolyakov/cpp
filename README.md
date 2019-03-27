@@ -20,7 +20,7 @@ Algorithms and Data Structures in C++
 * [Symmetric Tree](./trees/tree_isSymmetric.cpp) 
 
 
-### Complete Search
+### Search Algorithms  
 
 * [Generating Subsets](./complete_search/subset_gen.cpp)
 * [Eight Queens Problem](./complete_search/eight_queens.cpp)
