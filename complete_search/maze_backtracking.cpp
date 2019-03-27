@@ -24,7 +24,7 @@ void countPaths(int maze[N][N], int x, int y, int visited[N][N], int& count)
     //mark current cell as visited
     visited[x][y] = 1;
 
-    //if current ceel is a valid and open cell
+    //if current cell is a valid and open cell
     if (isValidCell(x, y) && maze[x][y])
     {
         //go down (x, y) -> (x+1, y)
